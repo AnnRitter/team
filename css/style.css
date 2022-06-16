@@ -163,16 +163,16 @@ a, ins {
 }
 /* ____________________________________________________________ */
 
-/* .header {
-
-} */
+.header {
+  margin-bottom: 143px;
+}
 
 .header__backgroud {
     background-image: url(/images/headline.jpg);
     position: absolute;
     top: 0;
     left: 0;
-    height: 800px;
+    height: 1100px;
     width: 100%;
     z-index: -1;
     background-size: cover;  
@@ -295,3 +295,15 @@ a, ins {
 }
 
 /* ___________________________________________________________ */
+
+
+
+
+
+@media screen and (max-width: 1920px){
+
+  .header__backgroud {
+    height: 950px;
+  }
+
+}
