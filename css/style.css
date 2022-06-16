@@ -155,6 +155,12 @@ a, ins {
   line-height: 1.75;
 }
 
+.style__buttons {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #fff;
+    font-weight: 700;
+}
 /* ____________________________________________________________ */
 
 /* .header {
@@ -196,10 +202,11 @@ a, ins {
     height: 22px;
 }
 
-/* .header__navigaton {
+.header__navigaton {
+  display: flex;
+  align-items: center;
   
-  
-} */
+}
 
 .menu__list {
     display: flex;
@@ -208,18 +215,14 @@ a, ins {
   
 }
 
-
-
 .menu__item {
-  
-}
-
-.menu__item:not(:last-child) {
     margin-right: 30px;
 }
 
 .item__ref {
     text-decoration: underline;
+    text-decoration-color: rgba(255, 255, 255, 0.5);
+    text-decoration-thickness: 0.5px;
 }
 
 .header__signup {
@@ -268,17 +271,27 @@ a, ins {
     width: 100%;
     height: 56px;
     background-color: #0BBEF2;
-    color: #fff;
     margin-right: 40px;
+    border-radius: 4px;
 }
 
 .header__pricing {
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     max-width: 200px;
     width: 100%;
     height: 50px;
     background-color: transparent;
     border: 3px solid #FFFFFF;
+}
+
+.header__arrow {
+  width: 24px;
+  height: 24px;
+  margin: 10px;
+  margin-right: 0;
+  background-color: white;
 }
 
 /* ___________________________________________________________ */
