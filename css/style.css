@@ -1,238 +1,267 @@
 @font-face {
-    font-family: 'Roboto';
-    src: url("../fonts/roboto-regular-webfont.woff2") format("woff2"),
-      url("../fonts/roboto-regular-webfont.woff") format("woff");
-    font-weight: 400;
-    font-style: normal;
-  }
-
-  @font-face {
-    font-family: 'Roboto';
-    src: url("../fonts/roboto-bold-webfont.woff2") format("woff2"),
-      url("../fonts/roboto-bold-webfont.woff") format("woff");
-    font-weight: 700;
-    font-style: normal;
-  }
-
-  @font-face {
-    font-family: 'Roboto';
-    src: url("../fonts/roboto-medium-webfont.woff2") format("woff2"),
-      url("../fonts/roboto-medium-webfont.woff") format("woff");
-    font-weight: 500;
-    font-style: normal;
-  }
-
-  @font-face {
-    font-family: 'Roboto';
-    src: url("../fonts/roboto-bold-webfont.woff2") format("woff2"),
-      url("../fonts/roboto-bold-webfont.woff") format("woff");
-    font-weight: 600;
-    font-style: normal;
-  }
-
-  @font-face {
-    font-family: 'Roboto';
-    src: url("../fonts/roboto-light-webfont.woff2") format("woff2"),
-      url("../fonts/roboto-light-webfont.woff") format("woff");
-    font-weight: 300;
-    font-style: normal;
-  }
-
-  @font-face {
-    font-family: 'Karla';
-    src: url("../fonts/karla-regular-webfont.woff2") format("woff2"),
-      url("../fonts/karla-regular-webfont.woff") format("woff");
-    font-weight: 400;
-    font-style: normal;
-  }
-
-  @font-face {
-    font-family: 'Mulish';
-    src: url("../fonts/Mulish-ExtraBold.woff2") format("woff2"),
-      url("../fonts/Mulish-ExtraBold.woff") format("woff");
-    font-weight: 800;
-    font-style: normal;
-  }
-
-  @font-face {
-    font-family: 'Mulish';
-    src: url("../fonts/Mulish-Bold.woff2") format("woff2"),
-      url("../fonts/Mulish-Bold.woff") format("woff");
-    font-weight: 700;
-    font-style: normal;
-  }
-
-  @font-face {
-    font-family: 'Mulish';
-    src: url("../fonts/Mulish-SemiBold.woff2") format("woff2"),
-      url("../fonts/Mulish-SemiBold.woff") format("woff");
-    font-weight: 600;
-    font-style: normal;
-  }
-
-  @font-face {
-    font-family: 'Mulish';
-    src: url("../fonts/Mulish-Regular.woff2") format("woff2"),
-      url("../fonts/Mulish-Regular.woff") format("woff");
-    font-weight: 400;
-    font-style: normal;
-  }
-
-  @font-face {
-    font-family: 'Merriweather';
-    src: url("../fonts/merriweather-regular-webfont.woff2") format("woff2"),
-      url("../fonts/merriweather-regular-webfont.woff") format("woff");
-    font-weight: 400;
-    font-style: normal;
-  }
-
-@font-face {
-    font-family: 'Work Sans';
-    src: url("../fonts/worksans-regular-webfont.woff2") format("woff2"),
-      url("../fonts/worksans-regular-webfont.woff") format("woff");
-    font-weight: 400;
-    font-style: normal;
-  }
-
-  @font-face {
-    font-family: 'Cabin';
-    src: url("../fonts/worksans-regular-webfont.woff2") format("woff2"),
-      url("../fonts/worksans-regular-webfont.woff") format("woff");
-    font-weight: 700;
-    font-style: normal;
-  }
-
-* { 
-    margin: 0; 
-    padding: 0; 
-    border: 0;
-    outline: 0;
-    vertical-align: baseline;
-	  font-weight: inherit;
-	  font-family: "Mulish", sans-serif;
-	  font-style: inherit;
-	  font-size: 14px;
-	  border: 0 none;
+  font-family: 'Roboto';
+  src: url("../fonts/roboto-regular-webfont.woff2") format("woff2"),
+    url("../fonts/roboto-regular-webfont.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
 }
 
-html, body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, 
-form, fieldset, input, p, blockquote, table, th, td, embed, object {
-	padding: 0;
-	margin: 0; 
-	}
+@font-face {
+  font-family: 'Roboto';
+  src: url("../fonts/roboto-bold-webfont.woff2") format("woff2"),
+    url("../fonts/roboto-bold-webfont.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url("../fonts/roboto-medium-webfont.woff2") format("woff2"),
+    url("../fonts/roboto-medium-webfont.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url("../fonts/roboto-bold-webfont.woff2") format("woff2"),
+    url("../fonts/roboto-bold-webfont.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url("../fonts/roboto-light-webfont.woff2") format("woff2"),
+    url("../fonts/roboto-light-webfont.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Karla';
+  src: url("../fonts/karla-regular-webfont.woff2") format("woff2"),
+    url("../fonts/karla-regular-webfont.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Mulish';
+  src: url("../fonts/Mulish-ExtraBold.woff2") format("woff2"),
+    url("../fonts/Mulish-ExtraBold.woff") format("woff");
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Mulish';
+  src: url("../fonts/Mulish-Bold.woff2") format("woff2"),
+    url("../fonts/Mulish-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Mulish';
+  src: url("../fonts/Mulish-SemiBold.woff2") format("woff2"),
+    url("../fonts/Mulish-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Mulish';
+  src: url("../fonts/Mulish-Regular.woff2") format("woff2"),
+    url("../fonts/Mulish-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Merriweather';
+  src: url("../fonts/merriweather-regular-webfont.woff2") format("woff2"),
+    url("../fonts/merriweather-regular-webfont.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Work Sans';
+  src: url("../fonts/worksans-regular-webfont.woff2") format("woff2"),
+    url("../fonts/worksans-regular-webfont.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Cabin';
+  src: url("../fonts/worksans-regular-webfont.woff2") format("woff2"),
+    url("../fonts/worksans-regular-webfont.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  vertical-align: baseline;
+  font-weight: inherit;
+  font-family: "Mulish", sans-serif;
+  font-style: inherit;
+  font-size: 14px;
+  border: 0 none;
+}
+
+html,
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+form,
+fieldset,
+input,
+p,
+blockquote,
+table,
+th,
+td,
+embed,
+object {
+  padding: 0;
+  margin: 0;
+}
 
 html {
-    font-size: 1em;
+  font-size: 1em;
 }
 
 body {
-    font-size: 100%;
+  font-size: 100%;
 }
 
-a img, :link img, :visited img {
-    border: 0;
+a img,
+:link img,
+:visited img {
+  border: 0;
 }
 
-p { 
-    margin: 5px 0 10px 0; 
+p {
+  margin: 5px 0 10px 0;
 }
 
 ul {
-	list-style: none;
-    margin: 0;
-    padding-left: 0;
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
 }
 
-a, ins {
-	text-decoration: none;
-  color: #fff;
+a,
+ins {
+  text-decoration: none;
 }
+
 /* ____________________________________________________________ */
 
-.style__headline { 
+.style__headline {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.75;
 }
 
 .style__buttons {
-    font-size: 16px;
-    line-height: 1.5;
-    color: #fff;
-    font-weight: 700;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #fff;
+  font-weight: 700;
 }
+
 /* ____________________________________________________________ */
 
 .header {
-  margin-bottom: 143px;
+  height: 1100px;
 }
 
 .header__backgroud {
-    background-image: url(/images/headline.jpg);
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 1100px;
-    width: 100%;
-    z-index: -1;
-    background-size: cover;  
+  background-image: url(/images/headline.jpg);
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 1100px;
+  width: 100%;
+  z-index: -1;
+  background-size: cover;
 }
 
 .container {
-    max-width: 1200px;
-    width: 100%;
-    padding: 0 40px;
-    margin: 0 auto;
+  max-width: 1200px;
+  width: 100%;
+  padding: 0 40px;
+  margin: 0 auto;
 }
 
 .header__wrap {
-    padding-top: 5px; 
+  padding-top: 5px;
 }
 
 .header__panel {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    margin-bottom: 172px;  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 172px;
 }
 
 .header__logo {
-    width: 87px;
-    height: 22px;
+  width: 87px;
+  height: 22px;
 }
 
 .header__navigaton {
   display: flex;
   align-items: center;
-  
+
 }
 
 .menu__list {
-    display: flex;
-    justify-content: space-between;
-    margin-left: auto;
-  
+  display: flex;
+  justify-content: space-between;
+  margin-left: auto;
+
 }
 
 .menu__item {
-    margin-right: 30px;
+  margin-right: 30px;
 }
 
 .item__ref {
-    text-decoration: underline;
-    text-decoration-color: rgba(255, 255, 255, 0.5);
-    text-decoration-thickness: 0.5px;
+  text-decoration: underline;
+  text-decoration-color: rgba(255, 255, 255, 0.5);
+  text-decoration-thickness: 0.5px;
+  color: #fff;
 }
 
 .header__signup {
-    width: 128px;
-    height: 56px;
-    background-color: transparent;
-    border: 2px solid white;
-    border-radius: 4px;
-    color: white;
-    opacity: 0.52;
+  width: 128px;
+  height: 56px;
+  background-color: transparent;
+  border: 2px solid white;
+  border-radius: 4px;
+  color: white;
+  opacity: 0.52;
 }
 
 /* .header__content {
@@ -240,50 +269,50 @@ a, ins {
 } */
 
 .header__headline {
-    display: block;
-    max-width: 514px;
-    width: 100%;
-    font-family: "Work Sans", sans-serif;
-    font-size: 48px;
-    line-height: 1.1;
-    text-shadow: 0 1px 5px black;
-    color: #fff;
+  display: block;
+  max-width: 514px;
+  width: 100%;
+  font-family: "Work Sans", sans-serif;
+  font-size: 48px;
+  line-height: 1.1;
+  text-shadow: 0 1px 5px black;
+  color: #fff;
 }
 
 .header__text {
-    display: block;
-    max-width: 323px;
-    width: 100%;
-    text-shadow: 0 1px 3px black;
-    font-size: 18px;
-    color: #fff;
-    margin-bottom: 70px;
+  display: block;
+  max-width: 323px;
+  width: 100%;
+  text-shadow: 0 1px 3px black;
+  font-size: 18px;
+  color: #fff;
+  margin-bottom: 70px;
 }
 
 .header__buttons {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .header__trial {
-    display: block;
-    max-width: 163px;
-    width: 100%;
-    height: 56px;
-    background-color: #0BBEF2;
-    margin-right: 40px;
-    border-radius: 4px;
+  display: block;
+  max-width: 163px;
+  width: 100%;
+  height: 56px;
+  background-color: #0BBEF2;
+  margin-right: 40px;
+  border-radius: 4px;
 }
 
 .header__pricing {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    max-width: 200px;
-    width: 100%;
-    height: 50px;
-    background-color: transparent;
-    border: 3px solid #FFFFFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 200px;
+  width: 100%;
+  height: 50px;
+  background-color: transparent;
+  border: 3px solid #FFFFFF;
 }
 
 .header__arrow {
@@ -296,11 +325,151 @@ a, ins {
 
 /* ___________________________________________________________ */
 
+.info {
+  padding-top: 143px;
+  background-color: #E5E5E5;
+}
+
+.info__list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+/* .info__item {
+
+} */
+
+/* .item2 {
+
+} */
+
+.item3 {
+  grid-area: 2/2/3/2;
+}
+
+.item__text {
+  max-width: 465px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.text__headline {
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 1.25;
+  margin-bottom: 30px;
+}
+
+.text__content {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.6;
+  color: #182D40;
+}
+
+/* .text__ref {
+
+} */
+
+.text__a {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.75;
+  color: #4DA0FD;
+  border-bottom: 1px solid #4DA0FD;
+}
+
+.text__svg {
+  width: 24px;
+  height: 24px;
+}
+
+.item__img {
+  position: relative;
+}
+
+
+.item__picture1 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+
+.item__meeting {
+  position: absolute;
+  left: -142px;
+  top: 74px;
+  max-width: 263px;
+  width: 100%;
+}
+
+.item__svg1 {
+  position: absolute;
+  top: 5px;
+  left: 380px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 55px;
+  height: 55px;
+  background-color: #FFB200;
+}
 
 
 
+.item__calendar {
+  width: 26px;
+  height: 23px;
 
-@media screen and (max-width: 1920px){
+}
+
+.item__svg2 {
+  position: absolute;
+  bottom: 98px;
+  left: -11px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 78px;
+  height: 78px;
+  background-color: #FFB200;
+}
+
+.item__notification {
+  width: 39px;
+  height: 45px;
+}
+
+
+/* .item__content {
+} */
+
+
+/* 
+.section1_picture {} */
+
+
+/* .item__calendar {
+
+} */
+
+/* .item__notification {
+
+} */
+
+/* .item__event-2 {
+
+} */
+
+/* .item__event-3 {
+
+} */
+
+/* .item__calender {
+
+} */
+
+@media screen and (max-width: 1920px) {
 
   .header__backgroud {
     height: 950px;
