@@ -335,19 +335,11 @@ ins {
   grid-template-columns: repeat(2, 1fr);
 }
 
-/* .info__item {
-
-} */
-
 .item1 {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
-/* .item2 {
-
-} */
 
 .item3 {
   grid-area: 2/2/3/2;
@@ -361,7 +353,6 @@ ins {
   justify-content: flex-end;
   align-items: center;
 }
-
 
 .item__text {
   max-width: 465px;
@@ -382,10 +373,6 @@ ins {
   color: #182D40;
 }
 
-/* .text__ref {
-
-} */
-
 .text__a {
   font-size: 16px;
   font-weight: 700;
@@ -403,16 +390,15 @@ ins {
   position: relative;
 }
 
-
 .item__picture1 {
   display: flex;
   justify-content: flex-end;
 }
 
 .item__picture2 {
- position: relative;
- max-width: 564px;
- width: 100%;
+  position: relative;
+  max-width: 564px;
+  width: 100%;
 }
 
 .item__picture3 {
@@ -462,8 +448,6 @@ ins {
   border-radius: 4px;
 }
 
-
-
 .item__calendar {
   width: 26px;
   height: 23px;
@@ -498,7 +482,7 @@ ins {
   position: absolute;
   top: -12px;
   right: -12px;
-  
+
 }
 
 .item__notification {
@@ -506,38 +490,20 @@ ins {
   height: 45px;
 }
 
-
-/* .item__content {
-} */
+/* _________________________________________________ */
 
 
-/* 
-.section1_picture {} */
 
 
-/* .item__calendar {
 
-} */
 
-/* .item__notification {
 
-} */
 
-/* .item__event-2 {
-
-} */
-
-/* .item__event-3 {
-
-} */
-
-/* .item__calender {
-
-} */
 
 @media screen and (max-width: 1920px) {
-  
-  .header, .header__backgroud {
+
+  .header,
+  .header__backgroud {
     height: 950px;
   }
 
