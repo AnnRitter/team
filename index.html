@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/swiper.css">
     <title>team</title>
 </head>
 
@@ -254,8 +256,121 @@
                 </button>
             </div>
         </section>
+        <section class="review">
+            <h2 class="review__headline text__headline">What people say about us</h2>
+            <div class="sliders">
+                <div class="swiper swiper_width">
+
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide slide_img">
+                            <img src="images/Group_14.png" alt="">
+                        </div>
+                        <div class="swiper-slide slide_img">
+                            <img src="images/Group_19.png" alt="">
+                        </div>
+                        <div class="swiper-slide slide_img">
+                            <img src="images/Group_20.png" alt="">
+                        </div>
+                        <div class="swiper-slide slide_img">
+                            <img src="images/Group_21.png" alt="">
+                        </div>
+                    </div>
+                    <!-- <div class="swiper-pagination"></div> -->
+                    <!-- <div class="swiper-scrollbar"></div> -->
+                </div>
+                <div class="slider_buttons">
+                    <div class="swiper-button-prev arrow_left"></div>
+                    <div class="swiper-button-next arrow_right"></div>
+                </div>
+            </div>
+        </section>
     </main>
-    <footer class="footer"></footer>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__wrap">
+                <ul class="footer__logo">
+                    <li class="logo__item logo_main">
+                        <svg class="logo__item_svg">
+                            <use xlink:href="images/sprites.svg#logo"></use>
+                        </svg>
+                    </li>
+                    <li class="logo__item">
+                        <svg class="logo__item_icon instagram">
+                            <use xlink:href="images/sprites.svg#instagram"></use>
+                        </svg>
+                        <p class="footer__text">instagram</p>
+                    </li>
+                    <li class="logo__item">
+                        <svg class="logo__item_icon">
+                            <use xlink:href="images/sprites.svg#facebook"></use>
+                        </svg>
+                        <p class="footer__text">Facebook</p>
+                    </li>
+                    <li class="logo__item">
+                        <svg class="logo__item_icon">
+                            <use xlink:href="images/sprites.svg#twitter"></use>
+                        </svg>
+                        <p class="footer__text">Twitter</p>
+                    </li>
+                </ul>
+                <ul class="footer__cases">
+                    <li class="cases__item">
+                        <p class="item__head">Use Cases</p>
+                    </li>
+                    <li class="cases__item">
+                        <p class="footer__text">UI Design</p>
+                    </li>
+                    <li class="cases__item">
+                        <p class="footer__text">UX Design</p>
+                    </li>
+                    <li class="cases__item">
+                        <p class="footer__text">Prototyping</p>
+                    </li>
+                </ul>
+                <ul class="footer__explore">
+                    <li class="explore__item">
+                        <p class="item__head">Explore</p>
+                    </li>
+                    <li class="explore__item">
+                        <p class="footer__text">Figma</p>
+                    </li>
+                    <li class="explore__item">
+                        <p class="footer__text">Customers</p>
+                    </li>
+                    <li class="explore__item">
+                        <p class="footer__text">Why I Love Figma</p>
+                    </li>
+                </ul>
+                <ul class="footer__resources">
+                    <li class="resources__item">
+                        <p class="item__head">Resources</p>
+                    </li>
+                    <li class="resources__item">
+                        <p class="footer__text">Community Resources Hub</p>
+                    </li>
+                    <li class="resources__item">
+                        <p class="footer__text">Support</p>
+                    </li>
+                    <li class="resources__item">
+                        <p class="footer__text">Education</p>
+                    </li>
+                </ul>
+
+                <form action="" class="footer__form">
+                    <p class="footer__form_text">Subscribe to our newsletter</p>
+                    <div class="input__wrap">
+                        <input type="email" name="" class="footer__email" placeholder="Email">
+                        <svg class="input__svg">
+                            <use xlink:href="images/sprites.svg#arrow_forward"></use>
+                        </svg>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
 </body>
 
 </html>
