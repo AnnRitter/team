@@ -56,7 +56,7 @@
     <main>
         <section class="info">
             <ul class="info__list">
-                <li class="info__item item1">
+                <li class="info__text item1">
                     <div class="item__text">
                         <h2 class="text__headline">Your Hub for teamwork</h2>
                         <p class="text__content">Give everyone you work with—inside and outside your company—a more
@@ -74,11 +74,16 @@
                     <div class="item__content">
                         <div class="item__picture1">
                             <div class="item__img">
-                                <img src="images/meeting_block.png" alt="">
-
-                                <div class="item__meeting">
-                                    <img src="images/notification_picture.png" alt="">
-                                </div>
+                                <picture>
+                                    <source media="(max-width: 320px)" srcset="images/meeting_200px.jpg">
+                                    <source media="(max-width: 500px)" srcset=" images/meeting_500px.jpg">
+                                    <img width="100%" height="auto" src="images/meeting_block.png" alt="photo" />
+                                </picture>
+                                <picture class="item__meeting">
+                                    <source media="(max-width: 320px)" srcset="images/notification_100px.png">
+                                    <source media="(max-width: 500px)" srcset=" images/notification_150px.png">
+                                    <img width="100%" height="auto" src="images/notification_picture.png" alt="photo" />
+                                </picture>
                                 <div class="item__svg1">
                                     <svg class="item__calendar">
                                         <use xlink:href="images/sprites.svg#calendar"></use>
@@ -90,12 +95,12 @@
                                     </svg>
                                     <div class="item__circle">3</div>
                                 </div>
-                            </div>
-
+                            </div>    
                         </div>
                     </div>
+                    </div>
                 </li>
-                <li class="info__item item3">
+                <li class="info__text item3">
                     <div class="item__text">
                         <h2 class="text__headline">Simple task management</h2>
                         <p class="text__content">Build visual roadmaps and project schedules with simple drag and
@@ -125,7 +130,7 @@
 
                     </div>
                 </li>
-                <li class="info__item item5">
+                <li class="info__text item5">
                     <div class="item__text">
                         <h2 class="text__headline">Scheduling that actually works</h2>
                         <p class="text__content">Give everyone you work with—inside and outside your company—a more
@@ -178,10 +183,10 @@
                 <div class="example__grid main-part">
                     <p class="main__headline">Create event</p>
                     <div class="main__content">
-                        <div class="main__pic">
+                        <div class="main__pic1">
                             <img src="images/create_event_card.png" alt="">
                         </div>
-                        <div class="main__pic">
+                        <div class="main__pic2">
                             <img src="images/specify_event_details_card.png" alt="">
                         </div>
                     </div>
