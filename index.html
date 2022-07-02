@@ -13,7 +13,12 @@
 
 <body>
     <header class="header">
-        <div class="header__backgroud"></div>
+        <picture>
+            <source media="(max-width: 500px)" srcset="images/headline_500.jpg">
+            <source media="(max-width: 900px)" srcset="images/headline_900.jpg">
+            <source srcset="images/headline.jpg">
+            <img src="images/headline.jpg" class="header__backgroud" alt="">
+        </picture>
         <div class="container">
             <div class="header__wrap">
                 <div class="header__panel">
@@ -74,15 +79,15 @@
                     <div class="item__content">
                         <div class="item__picture1">
                             <div class="item__img">
-                                <picture>
-                                    <source media="(max-width: 320px)" srcset="images/meeting_200px.jpg">
-                                    <source media="(max-width: 500px)" srcset=" images/meeting_500px.jpg">
-                                    <img width="100%" height="auto" src="images/meeting_block.png" alt="photo" />
+                                <picture >
+                                    <source media="(max-width: 768px)" srcset="images/meeting_200px.jpg">
+                                    <source media="(max-width: 1024px)" srcset=" images/meeting_500px.jpg">
+                                    <img  src="images/meeting_block.png" alt="photo" />
                                 </picture>
                                 <picture class="item__meeting">
                                     <source media="(max-width: 320px)" srcset="images/notification_100px.png">
                                     <source media="(max-width: 500px)" srcset=" images/notification_150px.png">
-                                    <img width="100%" height="auto" src="images/notification_picture.png" alt="photo" />
+                                    <img width="100%" height="auto" src="images/notification_picture.png" alt="photo"/>
                                 </picture>
                                 <div class="item__svg1">
                                     <svg class="item__calendar">
@@ -95,7 +100,7 @@
                                     </svg>
                                     <div class="item__circle">3</div>
                                 </div>
-                            </div>    
+                            </div>
                         </div>
                     </div>
                     </div>
@@ -123,7 +128,7 @@
                                 <img src="images/event_2.png" alt="">
                             </div>
                             <div class="item__event3">
-                                <img src="images/event_3.png" alt="">
+                                <img src="images/event_3.png" alt="" >
                             </div>
 
                         </div>
@@ -147,9 +152,9 @@
                 <li class="info__item item6">
                     <div class="item__content">
                         <div class="item__picture3">
-                            <img src="images/section3_picture.png" alt="">
+                            <img src="images/section3_picture.png" alt="" >
                             <div class="item__calendar_img">
-                                <img src="images/section3_calender.png" alt="">
+                                <img src="images/section3_calender.png" alt="" >
                             </div>
                         </div>
 
@@ -289,82 +294,84 @@
     <footer class="footer">
         <div class="container">
             <div class="footer__wrap">
-                <ul class="footer__logo">
-                    <li class="logo__item logo_main">
+                <ul class="footer__logo block1">
+                    <li class="logo__item logo_main item">
                         <svg class="logo__item_svg">
                             <use xlink:href="images/sprites.svg#logo"></use>
                         </svg>
                     </li>
-                    <li class="logo__item">
+                    <li class="logo__item item">
                         <svg class="logo__item_icon instagram">
                             <use xlink:href="images/sprites.svg#instagram"></use>
                         </svg>
                         <p class="footer__text">instagram</p>
                     </li>
-                    <li class="logo__item">
+                    <li class="logo__item item">
                         <svg class="logo__item_icon">
                             <use xlink:href="images/sprites.svg#facebook"></use>
                         </svg>
                         <p class="footer__text">Facebook</p>
                     </li>
-                    <li class="logo__item">
+                    <li class="logo__item item">
                         <svg class="logo__item_icon">
                             <use xlink:href="images/sprites.svg#twitter"></use>
                         </svg>
                         <p class="footer__text">Twitter</p>
                     </li>
                 </ul>
-                <ul class="footer__cases">
-                    <li class="cases__item">
+                <ul class="footer__cases block2">
+                    <li class="cases__item item">
                         <p class="item__head">Use Cases</p>
                     </li>
-                    <li class="cases__item">
+                    <li class="cases__item item">
                         <p class="footer__text">UI Design</p>
                     </li>
-                    <li class="cases__item">
+                    <li class="cases__item item">
                         <p class="footer__text">UX Design</p>
                     </li>
-                    <li class="cases__item">
+                    <li class="cases__item item">
                         <p class="footer__text">Prototyping</p>
                     </li>
                 </ul>
-                <ul class="footer__explore">
-                    <li class="explore__item">
+                <ul class="footer__explore block3">
+                    <li class="explore__item item">
                         <p class="item__head">Explore</p>
                     </li>
-                    <li class="explore__item">
+                    <li class="explore__item item">
                         <p class="footer__text">Figma</p>
                     </li>
-                    <li class="explore__item">
+                    <li class="explore__item item">
                         <p class="footer__text">Customers</p>
                     </li>
-                    <li class="explore__item">
+                    <li class="explore__item item">
                         <p class="footer__text">Why I Love Figma</p>
                     </li>
                 </ul>
-                <ul class="footer__resources">
-                    <li class="resources__item">
+                <ul class="footer__resources block4">
+                    <li class="resources__item item">
                         <p class="item__head">Resources</p>
                     </li>
-                    <li class="resources__item">
+                    <li class="resources__item item">
                         <p class="footer__text">Community Resources Hub</p>
                     </li>
-                    <li class="resources__item">
+                    <li class="resources__item item">
                         <p class="footer__text">Support</p>
                     </li>
-                    <li class="resources__item">
+                    <li class="resources__item item">
                         <p class="footer__text">Education</p>
                     </li>
                 </ul>
-                <form action="#" class="footer__form">
-                    <p class="footer__form_text">Subscribe to our newsletter</p>
-                    <div class="input__wrap">
-                        <input type="email" name="email" class="footer__email" placeholder="Email">
-                        <svg class="input__svg">
-                            <use xlink:href="images/sprites.svg#arrow_forward"></use>
-                        </svg>
-                    </div>
-                </form>
+                <div class="footer__input block5">
+                    <form action="#" class="footer__form">
+                        <p class="footer__form_text">Subscribe to our newsletter</p>
+                        <div class="input__wrap">
+                            <input type="email" name="email" class="footer__email" placeholder="Email">
+                            <svg class="input__svg">
+                                <use xlink:href="images/sprites.svg#arrow_forward"></use>
+                            </svg>
+                        </div>
+                    </form>
+                </div>
             </div>
         </div>
     </footer>
