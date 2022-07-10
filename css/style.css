@@ -730,10 +730,6 @@ img {
   padding-right: 10px;
 }
 
-.logo__item_icon.instagram {
-  width: 18px;
-  height: 22x;
-}
 
 .item__head {
   font-family: "Mulish", sans-serif;
@@ -844,7 +840,7 @@ img {
     justify-content: center;
   }
 
-  .item6 {
+  .info__item .item6 {
     display: flex;
     justify-content: flex-end;
     width: 50%;
@@ -904,6 +900,26 @@ img {
 
 .logo__item {
   justify-content: center;
+}
+
+.item__svg1 {
+  width: 40px;
+  height: 40px;
+}
+
+.item__circle {
+  width: 25px;
+  height: 25px;
+}
+
+.item__svg2 {
+  width: 50px;
+  height: 50px;
+}
+
+.item__notification {
+  width: 30px;
+  height: 40px;
 }
 }
 
